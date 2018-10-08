@@ -1,10 +1,12 @@
 title: Page
-pages: true
+pages:
+  template:
+    - module.stage
 files: true
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  textarea
+  modules:
+    label: Modules
+    type: modules
